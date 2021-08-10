@@ -1,0 +1,38 @@
+/*Variaveis globais do css*/
+:root {
+    --color-background:#F3F3F3;
+    --color-background-nav:#2B3D50;
+    --color-background-home:#344960;
+    --color-text-light:#EDEDED;
+    --color-text-title:#FF5555;
+    --color-text-dark:#3D3D3D;
+  }
+
+  /*resets do css*/
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+
+  /*Aqui vamos atribuir as variaveis do css a elementos da pagina*/
+  html,
+  body{
+      background-color: var(--color-background);
+  }
+
+  /*decorarion vai retirar linhas e infeites dos links// transition vai levar 2 segundos quando passarmos a mause encima do icone para ele ir para opaco e vai demroar dois segundos para ele retornar ao normal apos retirar*/
+  a{
+      text-decoration: none;
+      transition: 0.2 opacity;
+  }
+
+  /*vai deixar o link opaco*/
+  a:hover{
+      opacity: 0.8;
+  }
+
+  .container{
+      width: 90%;
+  }
